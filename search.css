@@ -17,13 +17,11 @@
   width: 600px;
   height: 35px;
 }
-#search #searchArea div {
+#search #searchArea #icon {
+  width: 20px;
   float: left;
   padding: 8px;
-  width: 10px;
-}
-#search #searchArea div #icon {
-  width: 20px;
+  padding-right: 0px;
 }
 #search #searchArea input[type=text] {
   margin: 2px auto auto 6px;
@@ -33,6 +31,7 @@
   font-family: sans-serif;
   font-size: medium;
   border: hidden;
+  outline: none;
 }
 #search input[type=submit] {
   border: hidden;
