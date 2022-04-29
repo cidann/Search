@@ -4,12 +4,40 @@
     text-align: center;
     margin: 60px auto;
     #logo{
-        width: 280px;
+        width: 270px;
     }
-    input[type=text]{
+    form{
+        margin: auto;
+    }
+    #searchArea{
+        margin: 30px;
+        border: solid;
         border-radius: 100px;
-        width: 400px;
-        height: 20px;
+        width: 600px;
+        height: 35px;
+        div{
+            float: left;
+            padding: 8px;
+            width: 10px;
+            #icon{
+                width: 20px;
+            }
+        }
+        input[type=text]{
+            margin: 2px auto auto 6px;
+            float: left;
+            width: 550px;
+            height: 30px;
+            font-family: sans-serif;
+            font-size: medium;
+            border: hidden;
+        }
+    }
+    input[type=submit]{
+        border: hidden;
+        border-radius: 5px;
+        width: 120px;
+        height: 30px;
     }
 }
 

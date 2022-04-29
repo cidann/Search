@@ -5,12 +5,40 @@
   margin: 60px auto;
 }
 #search #logo {
-  width: 280px;
+  width: 270px;
 }
-#search input[type=text] {
+#search form {
+  margin: auto;
+}
+#search #searchArea {
+  margin: 30px;
+  border: solid;
   border-radius: 100px;
-  width: 400px;
-  height: 20px;
+  width: 600px;
+  height: 35px;
+}
+#search #searchArea div {
+  float: left;
+  padding: 8px;
+  width: 10px;
+}
+#search #searchArea div #icon {
+  width: 20px;
+}
+#search #searchArea input[type=text] {
+  margin: 2px auto auto 6px;
+  float: left;
+  width: 550px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: medium;
+  border: hidden;
+}
+#search input[type=submit] {
+  border: hidden;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=search.css.map */
