@@ -10,21 +10,20 @@
         margin: auto;
     }
     #searchArea{
-        margin: 30px;
-        border: solid;
+        margin: 28px;
+        border: solid cyan 1px;
         border-radius: 100px;
-        width: 600px;
-        height: 35px;
+        width: 580px;
+        height: 40px;
         #icon{
             width: 20px;
             float: left;
-            padding: 8px;
-            padding-right: 0px;
+            margin: 10px;
         }
         input[type=text]{
-            margin: 2px auto auto 6px;
+            margin: 4px;
             float: left;
-            width: 550px;
+            width: 500px;
             height: 30px;
             font-family: sans-serif;
             font-size: medium;
@@ -35,7 +34,10 @@
     input[type=submit]{
         border: hidden;
         border-radius: 5px;
-        width: 120px;
+        font-family: sans-serif;
+        font-size: 90%;
+        background-color: rgb(230, 249, 255);
+        width: 130px;
         height: 30px;
     }
 }
