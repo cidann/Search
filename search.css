@@ -1,0 +1,48 @@
+#search {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 60px auto;
+}
+#search #logo {
+  width: 270px;
+}
+#search form {
+  margin: auto;
+}
+#search #searchArea {
+  display: flex;
+  background-color: orange;
+  flex-shrink: 3;
+  margin: 28px;
+  border: solid cyan 1px;
+  border-radius: 100px;
+  width: 580px;
+  height: 40px;
+}
+#search #searchArea #icon {
+  width: 20px;
+  float: left;
+  margin: 10px;
+}
+#search #searchArea input[type=text] {
+  margin: 4px;
+  float: left;
+  width: 500px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: medium;
+  border: hidden;
+  outline: none;
+}
+#search input[type=submit] {
+  border: hidden;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 90%;
+  background-color: rgb(230, 249, 255);
+  width: 130px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=search.css.map */
