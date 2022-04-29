@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="search.css">
-     
+        <title>Image Search</title>
+        <link rel="stylesheet" href="../search.css">
     </head>
     <body>
-        <div id="links">
-            <a href="search_image\image.html">Images</a>
-        </div>
         <div id="search">
-            <div>
-                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" >
+            <div id="logo" style="margin:auto; height:90px; background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);">
+                <div>Images</div>
             </div>
-            <form action="https://www.google.com/search">
+            <form action="https://www.google.com/search?">
                 <div id="searchArea">
                     <img id="icon" src="https://b.kisscc0.com/20180705/aze/kisscc0-computer-icons-download-microsoft-office-google-se-search-ideogram-5b3db65bce96b5.4999609515307710358462.png">
                     <input type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
                 </div>
                 <input type="submit" value="Google Search">
             </form>
