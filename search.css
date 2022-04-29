@@ -1,0 +1,16 @@
+#search {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 60px auto;
+}
+#search #logo {
+  width: 280px;
+}
+#search input[type=text] {
+  border-radius: 100px;
+  width: 400px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=search.css.map */
