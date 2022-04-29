@@ -1,5 +1,12 @@
 #links {
   text-align: right;
+  margin: 20px 20px auto;
+  font-size: small;
+  font-family: sans-serif;
+}
+#links a {
+  text-decoration: none;
+  color: black;
 }
 
 #search {
@@ -10,6 +17,15 @@
 }
 #search #logo {
   width: 270px;
+  position: relative;
+  font-size: medium;
+  font-family: sans-serif;
+  color: blue;
+}
+#search #logo div {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 #search form {
   margin: auto;

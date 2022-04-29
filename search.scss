@@ -1,5 +1,12 @@
 #links{
     text-align: right;
+    margin: 20px 20px auto;
+    font-size: small;
+    font-family: sans-serif;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 #search {
     display: flex;
@@ -8,6 +15,15 @@
     margin: 60px auto;
     #logo{
         width: 270px;
+        position: relative;
+        font-size: medium;
+        font-family: sans-serif;
+        color: blue;
+        div{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
     }
     form{
         margin: auto;
