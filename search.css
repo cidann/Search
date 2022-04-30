@@ -67,7 +67,8 @@
   width: 290px;
   margin: auto;
 }
-#search form #submit input[type=submit] {
+#search form input[type=submit] {
+  margin: auto;
   border: hidden;
   border-radius: 5px;
   font-family: sans-serif;
