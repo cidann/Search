@@ -15,7 +15,7 @@
 #search {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   margin: 60px auto;
 }
 #search #logo {
@@ -31,21 +31,26 @@
   right: 0px;
 }
 #search form {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: fit-content;
+  flex-shrink: 1;
 }
-#search #searchArea {
+#search form #searchArea {
+  flex-shrink: 1;
   margin: 28px;
   border: solid cyan 1px;
   border-radius: 100px;
   width: 580px;
   height: 40px;
 }
-#search #searchArea #icon {
+#search form #searchArea #icon {
   width: 20px;
   float: left;
   margin: 10px;
 }
-#search #searchArea input[type=text] {
+#search form #searchArea input[type=text] {
   margin: 4px;
   float: left;
   width: 500px;
@@ -55,7 +60,14 @@
   border: hidden;
   outline: none;
 }
-#search input[type=submit] {
+#search form #submit {
+  display: flex;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  width: 290px;
+  margin: auto;
+}
+#search form #submit input[type=submit] {
   border: hidden;
   border-radius: 5px;
   font-family: sans-serif;
